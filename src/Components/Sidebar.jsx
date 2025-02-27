@@ -7,11 +7,11 @@ const Sidebar = () =>(
     direction={"row"}
     sx={{overflowY:"auto" , height:{sx:"auto" , md: "95%"} , flexDirection: {md : "column"}}}
     >
-            {categories.map((Category) => (
+            {categories.map((category) => (
                 <button
-                className="category-btn">
-                    <span>{Category.icon}</span>
-                    <span>{Category.name}</span>
+                className="category-btn" key={category.name}>
+                    <span>{category.icon}</span>
+                    <span>{category.name}</span>
                 </button>
             ))}
     </Stack>
