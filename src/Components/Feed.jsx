@@ -13,6 +13,9 @@ const Feed = () => {
             Copyright 2025 FlicksHub
           </Typography>
         </Box>
+        <Box>
+          
+        </Box>
 
         <Box p={2} sx={{overflowY : "auto" , height : "90vh" , flex : 2}}>
           <Typography variant="h4" fontWeight="bold" mb={2} sx={{color : "white"}}>
