@@ -20,9 +20,9 @@ const VideoCard = ({
     <Card sx={{width: {xs: "100%", sm: "358px", md: "300px"}, boxShadow: "none", borderRadius: "none"}}>
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
         <CardMedia
-          image={snippet?.thumbnails?.high?.url}
-          alt={snippet?.title}
-          sx={{ width: 358, height: 180 }}
+          image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
+          alt={snippet?.title || demoVideoTitle}
+          sx={{ width: {xs: "100%", sm: 358, md: 320}, height: 180 }}
         />{" "}
         {/*here we are using the thumbnail url from the snippet . ? is used to check if the videoId is present or not and  avioding the error if found*/}
       </Link>
