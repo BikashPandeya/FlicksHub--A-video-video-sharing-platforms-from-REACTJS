@@ -2,6 +2,8 @@
 
 FlicksHub is a modern video sharing platform built with React.js and Material-UI, offering a YouTube-like experience. The application uses the YouTube v3 API through RapidAPI to provide real-time video content, search functionality, and channel information.
 
+🌐 **[Live Demo](https://flicks-hub-a-video-video-sharing-platforms-from-reactjs-mud4.vercel.app/)**
+
 ![FlicksHub Screenshot](screenshot.png)
 
 ## 🚀 Features
