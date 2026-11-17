@@ -4,7 +4,7 @@ FlicksHub is a modern video sharing platform built with React.js and Material-UI
 
 🌐 **[CLick Here for Live Demo](https://flicks-hub-a-video-video-sharing-platforms-from-reactjs-mud4.vercel.app/)**
 
-![FlicksHub Screenshot](screenshot.png)
+
 
 ## 🚀 Features
 
